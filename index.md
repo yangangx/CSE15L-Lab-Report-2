@@ -31,6 +31,7 @@ str
 str is a string. it will add all the element and saparate all of them on each line.
 
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
 Only the value str changes from the specific request because every time we add a new string, the value str will add a "\n" and the new string to the end of itself.
 
 ## Part 2
