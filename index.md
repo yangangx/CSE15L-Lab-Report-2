@@ -7,17 +7,27 @@
 ![Image](2-4.png)
 
 Which methods in your code are called?
+
 url.getPath().equal()
+
 url.getpath().contains()
+
 url.getQuery().split()
+
 Thses are methods in my code are called.
 
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+
 /
+
 /add-message
+
 =
+
 s
+
 str
+
 str is a string. it will add all the element and saparate all of them on each line.
 
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
@@ -79,6 +89,7 @@ static double newAverageWithoutLowest(double[] arr) {
   }
 ```
 Briefly describe why the fix addresses the issue.
+
 The before code calculated the sum and lowest correctly, but the main reason which caused the bug is the before code only calculated the sum and lowest. It didn't subtract the lowest from the sum. The after code, I add a calculation that does subtraction. It subtracts the lowest from the sum. For example, the array is 1, 2, 3, 3, 4, and the expected value is 3, but the actual value is 3.25. it's just because the before code didn't subtract the lowest value 1 from the sum.
 
 ## Part 3
