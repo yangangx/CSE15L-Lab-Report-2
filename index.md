@@ -1,7 +1,6 @@
-# Lab Report 2
+# Lab Reprt 2
 # Servers and Bugs
 
-## Part 1
 ![Image](2-1.png)
 ![Image](2-2.png)
 ![Image](2-3.png)
