@@ -86,7 +86,10 @@ An input that doesn’t induce a failure, as a JUnit test and any associated cod
 The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 
 ![Image](1-3.png)
-![Image](3.png)
+
+JUnit test passing the
+non failure inducing input
+![Image](4.png)
 
 The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
 ```
@@ -121,6 +124,9 @@ static double newAverageWithoutLowest(double[] arr) {
     return sum / (arr.length - 1);
   }
 ```
+
+Test passing
+![Image](3.png)
 Briefly describe why the fix addresses the issue.
 
 The before code calculated the sum and lowest correctly, but the main reason which caused the bug is the before code only calculated the sum and lowest. It didn't subtract the lowest from the sum. The after code, I add a calculation that does subtraction. It subtracts the lowest from the sum. For example, the array is 1, 2, 3, 3, 4, and the expected value is 3, but the actual value is 3.25. it's just because the before code didn't subtract the lowest value 1 from the sum.
