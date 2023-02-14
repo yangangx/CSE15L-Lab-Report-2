@@ -125,8 +125,9 @@ static double newAverageWithoutLowest(double[] arr) {
   }
 ```
 
-Test passing
+Test passing after code change
 ![Image](3.png)
+
 Briefly describe why the fix addresses the issue.
 
 The before code calculated the sum and lowest correctly, but the main reason which caused the bug is the before code only calculated the sum and lowest. It didn't subtract the lowest from the sum. The after code, I add a calculation that does subtraction. It subtracts the lowest from the sum. For example, the array is 1, 2, 3, 3, 4, and the expected value is 3, but the actual value is 3.25. it's just because the before code didn't subtract the lowest value 1 from the sum.
