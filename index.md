@@ -72,6 +72,9 @@ A failure-inducing input for the buggy program, as a JUnit test and any associat
     assertEquals(3, ArrayExamples.averageWithoutLowest(input), 0.01);
       }
 ```
+JUnit test passing the non failure inducing input
+
+
 An input that doesn’t induce a failure, as a JUnit test and any associated code
 ```
 @Test
@@ -83,6 +86,7 @@ An input that doesn’t induce a failure, as a JUnit test and any associated cod
 The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 
 ![Image](1-3.png)
+![Image](3.png)
 
 The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
 ```
