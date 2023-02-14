@@ -125,7 +125,8 @@ static double newAverageWithoutLowest(double[] arr) {
   }
 ```
 
-Test passing
+Test passing after code change
+
 ![Image](3.png)
 Briefly describe why the fix addresses the issue.
 
