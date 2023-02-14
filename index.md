@@ -23,7 +23,7 @@ The method ```length``` is called to check whether the lenth of the arg is zero 
 
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-The vlaue of the variable ```args``` and ```port``` can be change when a new server is starting. the value of ```rgs``` is a input, the ```port``` depends on the value args. It is same as ```args```, but it is a integer.
+The vlaue of the variable ```args``` and ```port``` can be change when a new server is starting. the value of ```rgs``` is a input, the ```port``` depends on```args```. It is same as ```args```, but it is a integer.
 
 
 ![Image](2-3.png)
