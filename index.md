@@ -58,7 +58,7 @@ str
 
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-Only the value str changes from the specific request because every time we add a new string into the server, the value str will add a ```\n``` and the new string to the end of itself. So it changes when you add any new message into the server.
+Value of ```str``` changes from the specific request because every time we add a new string into the server, the value str will add a ```\n``` and the new string to the end of itself. So it changes when you add any new message into the server.
 
 
 
