@@ -136,6 +136,3 @@ The before code calculated the sum and lowest correctly, but the main reason whi
 In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.
 
 I learned how to clone from github, and I use vscode to clone from github to my computer through the git clone command. I learned what makes up a URL in the section on How to distinguish URLs in a URL Domain path Query and Anchor. I also learned about the commands to build and run the server. How to use JUnit for debugging. These are things I didn't know before.
-
-
-
