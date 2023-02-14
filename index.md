@@ -19,7 +19,7 @@ args
 port
 ```
 
-The method ```length``` is called to check whether the lenth of the arg is zero or not. If the length is zero, the variable ```args``` is empty. If the variable doesn't have any value in it. The server can't be start without port numebr.  ```args[0]``` is a string. it contains the port for the server. The method ```IntegerparseInt()``` is called to convert the value to a integer. Then the method ``` start()``` is called to start to a server with the integer value ```port``` and method ```new Handler()``` as parameters.
+The method ```length``` is called to check whether the lenth of the arg is zero or not. If the length is zero, the variable ```args``` is empty. If the variable doesn't have any value. The server can't be start without port numebr.  ```args[0]``` is a string. it contains the port for the server. The method ```IntegerparseInt()``` is called to convert the value to a integer. Then the method ``` start()``` is called to start to a server with the integer value ```port``` and method ```new Handler()``` as parameters.
 
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
